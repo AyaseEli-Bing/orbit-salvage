@@ -78,9 +78,11 @@ python3 serve.py -p 5173    # 换端口
 
 ```
 orbit-salvage/
-├── index.html   # 游戏本体（HTML + CSS + JS 全内联，约 1000 行）
-├── serve.py     # 可选：Python 标准库静态服务器
-└── README.md    # 本说明
+├── index.html    # 游戏本体（HTML + CSS + JS 全内联，约 1100 行）
+├── serve.py      # 可选：Python 标准库静态服务器
+├── .gitignore    # 依赖 / 构建产物 / 日志 / 密钥等忽略规则
+├── README.md     # 本说明
+└── PUBLISH.md    # Git 初始化、推送命令序列与异常处置手册
 ```
 
 ## 9. 已知边界
